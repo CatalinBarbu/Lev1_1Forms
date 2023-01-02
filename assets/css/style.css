@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  width: 100%;
+  max-width: 1440px;
+} */
+header {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin: 25vh 0;
+  width: 100%;
+  max-width: 300px;
+}
+form h2 {
+  font-size: 0.9rem;
+  padding: 5px 0 0 0;
+}
+form h2 span {
+  color: red;
+}
+#email,
+#alege,
+#submit {
+  width: 305px;
+}
+#submit {
+  margin-top: 5px;
+  padding: 5px 0;
+  background-color: darkorange;
+  border: 1px solid darkorange;
+  color: white;
+  font-weight: bold;
+}
+#submit:hover {
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
